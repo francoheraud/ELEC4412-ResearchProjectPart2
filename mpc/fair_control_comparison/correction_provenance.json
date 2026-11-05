@@ -1,0 +1,25 @@
+{
+  "parent": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\mpc\\restricted_2r1c_mpc",
+  "reference_price0": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\mpc\\restricted_2r1c_mpc\\weight_experiments\\weights_20261012_230939_92f8fc\\results\\trial",
+  "reference_price1": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\mpc\\restricted_2r1c_mpc\\weight_experiments\\weights_20261012_232113_aca622\\results\\trial",
+  "source_code_sha256": {
+    "run.py": "df413c0fff85f6fd6f82279b26f90c7e0fe333cddc9f4f073f2c4e5f2d2af2df",
+    "bess_mpc.py": "47de03e9a17aadddb908d3fd97584d8401a9f775c213ef95a73e4cdf5af86433",
+    "price_mpc.py": "63f30902cddc67eaceb306cbb3babf683441879464610e1d161e6dfce2ec7c6f",
+    "hvac_policies.py": "1b9158814c40254b6e2f68e7876e095779fb57c562f42708f1b76fa00496ca9b",
+    "experiment_settings.py": "1ec6e16405b2c0c37ee0d3f0d73fa000a42601ffeee48bb2318e8f6bdbf44da0",
+    "battery_inventory.py": "e3e6b7c0b4fe7948a48079b5cb41cc31dd9d9229048a8726f943e7f3295dd646",
+    "export_figures.py": "640a312935c479b0b33e7873bf4ce47e9da94ce785c5801b230aa4af0f0df093",
+    "tables.py": "5002cb69d61d88fc16a18106d76c9d1708dcbc4cfb19b1dfaef143ba410a274d",
+    "run_matched.py": "66df341d5d6dcded6f0273701b95773c7677e4b71c688c5bf60232e319954ce4",
+    "source_manifest.json": "34256e49f9d8863317f87708dac7ce55e85e1f0e5c5df7cff036f27b554dda46",
+    "experiment.json": "e623abe9dd28c302037e551e4430fd9cf8887556f2f578a9768548ba23f88471",
+    "weight_workbench.py": "2d9ce837fb65f7b12515019ec0334f20173d3b0b8b12659a41ed2f011e6ca92c",
+    "test_integration.py": "abcbaba1b9b0b82e707ac6aed81b410f79a49e7d4ff01954b41bc08086e14d68"
+  },
+  "soc_limits": [
+    0.24,
+    0.92
+  ],
+  "description": "Measured PV surplus charging and common native/planning SOC limits; HVAC algorithms and all weights retained from latest completed weight trials."
+}

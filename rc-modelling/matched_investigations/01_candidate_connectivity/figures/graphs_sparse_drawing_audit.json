@@ -1,0 +1,56 @@
+{
+  "graphs_sparse": [
+    {
+      "model": "unrestricted_2R1C_wall",
+      "candidate": true,
+      "interzone": 105,
+      "plenum": 45
+    },
+    {
+      "model": "unrestricted_2R1C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 28
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ],
+  "graphs_sparse_unrestricted": [
+    {
+      "model": "unrestricted_2R1C_wall",
+      "candidate": true,
+      "interzone": 105,
+      "plenum": 45
+    },
+    {
+      "model": "unrestricted_2R1C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 28
+    }
+  ],
+  "graphs_sparse_2R1C": [
+    {
+      "model": "local_2R1C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ]
+}

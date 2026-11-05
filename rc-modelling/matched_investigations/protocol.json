@@ -1,0 +1,141 @@
+{
+  "groups": {
+    "01_candidate_connectivity": [
+      "unrestricted_2R1C_wall",
+      "local_2R1C_wall"
+    ],
+    "02_branch_complexity": [
+      "local_1R_wall",
+      "local_2R1C_wall"
+    ],
+    "03_physical_information": [
+      "local_2R1C_free_air",
+      "local_2R1C_air_only",
+      "local_2R1C_wall"
+    ]
+  },
+  "cases": {
+    "unrestricted_2R1C_wall": {
+      "mask": "unrestricted",
+      "order": "2R1C",
+      "fixed_air": true,
+      "wall_prior": true,
+      "taus": [
+        0.48119207491319455
+      ]
+    },
+    "local_2R1C_wall": {
+      "mask": "local",
+      "order": "2R1C",
+      "fixed_air": true,
+      "wall_prior": true,
+      "taus": [
+        0.48119207491319455
+      ]
+    },
+    "local_1R_wall": {
+      "mask": "local",
+      "order": "1R",
+      "fixed_air": true,
+      "wall_prior": true,
+      "taus": [
+        0.0
+      ]
+    },
+    "local_2R1C_free_air": {
+      "mask": "local",
+      "order": "2R1C",
+      "fixed_air": false,
+      "wall_prior": false,
+      "taus": [
+        0.25,
+        1.0,
+        4.0,
+        12.0
+      ]
+    },
+    "local_2R1C_air_only": {
+      "mask": "local",
+      "order": "2R1C",
+      "fixed_air": true,
+      "wall_prior": false,
+      "taus": [
+        0.25,
+        1.0,
+        4.0,
+        12.0
+      ]
+    }
+  },
+  "data_sha256": "edd43aae99c98d889b2997a533b36b082f00f8853271d5749c59e4652749e938",
+  "source": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\rc-modelling\\results\\prepared_data.npz",
+  "lambdas": [
+    0.0,
+    1e-06,
+    3.162277660168379e-06,
+    1e-05,
+    3.1622776601683795e-05,
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0
+  ],
+  "methods": [
+    "trapezoidal",
+    "savgol"
+  ],
+  "train": "Days 1-14 January/April/July/October",
+  "validation": "Days 15-21 of the same months",
+  "test": "Days 15-21 February/May/August/November",
+  "conditioning_hours": 72,
+  "sg": "Seven points, degree 2, 60-minute span; common valid training indices with trapezoidal method",
+  "trapezoidal": "Secant temperature derivative and endpoint-averaged temperatures, reconstructed storage and heat inputs",
+  "prediction": "Exact matrix exponential; interval-average realized inputs held constant per step; no within-rollout resetting or observer",
+  "selection": "Per configuration across methods and tau candidates: minimum validation error; plus fewest states then active conductances then RMSE within 0.02 C of minimum",
+  "geometry": "Local means same-floor zone pairs and physically bordering plenums only. Outdoor and ground candidates unchanged. Unrestricted permits all zone pairs/all plenums; lower-floor plenum candidates use slab-type storage in 2R1C.",
+  "complexity": "All designated storage branches change together: interzone, outdoor envelope and lower-plenum slab. Direct outdoor and collapsed envelope path merge into one G in 1R. Upper-plenum and ground paths remain 1R. Discovery is repeated: comparison concerns model families, not order at a frozen topology.",
+  "physical_information": "Free-air versus fixed-air uses identical broad conductance bounds and tau grid. Adding wall prior also fixes interzone tau to Cref/(4Gref); this changes the admissible dynamics, not just the optimiser.",
+  "fixed_boundary_timescales": "Outdoor and slab tau=12 h from previous exploratory validation; held identical across 2R1C comparisons, not newly inferred material values.",
+  "air_bounds_kWh_K": [
+    0.01,
+    1000.0
+  ],
+  "broad_conductance_bounds_kW_K": [
+    0,
+    100
+  ],
+  "gain_bounds": [
+    0,
+    2
+  ],
+  "wall_area_factor": [
+    0.5,
+    2
+  ],
+  "parameter_count": "Active conductances + two estimated gain coefficients + 15 air capacities only when free. Storage C is tied to G/tau, not independent. Selected common tau reported separately as a hyperparameter.",
+  "limitations": [
+    "Reused test periods: exploratory, not a fresh blind holdout.",
+    "Known future heat inputs and plenum temperatures: conditional prediction, not an operational forecast.",
+    "Nonconvex conditional wall bounds: multistart coordinate optimum, no global guarantee.",
+    "Physical agreement imposed by a prior is not independent validation.",
+    "No MPC plant or controller is changed.",
+    "No 3R2C."
+  ],
+  "source_hashes": {
+    "build_overview.py": "c3718107ae4549727b331ec1079271e1e15dd040cecb30dcca97e71bd2193c19",
+    "make_reports.py": "7ecec181120daed8f88b0e2e511adde0bb904016df132ec921d99ce45e8ddf5d",
+    "rc_engine.py": "279adeecc0aed3af07fbbed5636a0d38f6ed6dd64db43a2564c6458a4bb80385",
+    "run_investigations.py": "5e72bedef01cdb6801ea808b1f28ef5069ae122ab32e1e86b343e3ad9b045b4b",
+    "test_engine.py": "d25bafb402dbfa2345b16964fb2bf7ffa3c2a1a941bc5b6e11e3cf6ba8bd1337",
+    "verify_delivery.py": "c207dc38ff535bddbf6cf65912b2871bbb8e745468831bca72216a536c5aa1cc"
+  }
+}

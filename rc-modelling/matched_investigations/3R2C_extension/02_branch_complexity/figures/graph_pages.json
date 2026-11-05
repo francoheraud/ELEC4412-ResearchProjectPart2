@@ -1,0 +1,10 @@
+{
+  "best_accuracy": [
+    "graphs_best_accuracy_1R_2R1C.png",
+    "graphs_best_accuracy_3R2C.png"
+  ],
+  "sparse": [
+    "graphs_sparse_1R_2R1C.png",
+    "graphs_sparse_3R2C.png"
+  ]
+}

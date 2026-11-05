@@ -1,0 +1,145 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Conventional control, HVAC MPC and coordinated MPC</title>
+<style>body{font:18px 'Times New Roman',serif;line-height:1.45;color:#17252e;max-width:1000px;margin:30px auto;padding:20px}h1{font-size:32px}h2{font-size:25px}table{border-collapse:collapse;font-size:17px;width:100%}td,th{padding:8px;border-bottom:1px solid #b7c3cb;text-align:right}td:first-child,th:first-child{text-align:left}img{max-width:100%;height:auto}.note{padding:16px;background:#eef4f6;border-left:4px solid #167c80}.scroll{overflow-x:auto}a{color:#175a91}summary{cursor:pointer}figure{margin:24px 0}figcaption{font-size:16px}</style>
+<h1>Conventional control, HVAC MPC and coordinated MPC</h1>
+<p>Principal comparison using the original common temperature-command bounds.
+The DOE Medium Office, 80% roof PV, 413.25 kWh NMC battery, weather, occupancy,
+equipment and operating limits are unchanged across these three saved cases.</p><p><b>Reporting period:</b> 20-28 August 2017, 216 hours: one conditioning day, seven controller evaluation days and one common recovery day.</p><p class="note">Conventional denotes native thermostat/VAV control with a reactive supply-air-temperature reset, not the unmodified EnergyPlus schedule. All three have the same allowed cooling-command limits and supply-air-temperature options: 12.8, 14, 15.5, 17 and 18°C. Equal command limits do not guarantee identical achieved temperatures.</p><p><a href="Fair_Control_Comparison.ipynb">Demonstration notebook</a> |
+<a href="thesis_figures/comparison_tables.tex">LaTeX table</a> |
+<a href="thesis_figures/figure_includes.tex">LaTeX figure snippets</a> |
+<a href="README.txt">Protocol</a></p>
+<h2>Three configurations</h2><ul>
+<li><b>Conventional:</b> native zone thermostat/VAV controls with current-temperature-based supply-air-temperature reset and greedy battery operation. No RC predictions enter its decisions.</li>
+<li><b>HVAC MPC:</b> the identified RC model evaluates HVAC policies over 48 hours; the battery uses the same greedy rule as conventional control.</li>
+<li><b>Coordinated MPC:</b> 48-hour HVAC policy selection and predictive battery dispatch consider grid-import energy and net import/export cost.</li></ul>
+<h2>Main results</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Metric</th>
+      <th>Conventional</th>
+      <th>HVAC MPC</th>
+      <th>Coordinated MPC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HVAC electricity (kWh)</td>
+      <td>5,287.85</td>
+      <td>5,033.27</td>
+      <td>5,035.63</td>
+    </tr>
+    <tr>
+      <td>Whole-building electricity (kWh)</td>
+      <td>17,847.63</td>
+      <td>17,593.05</td>
+      <td>17,595.41</td>
+    </tr>
+    <tr>
+      <td>Grid imports (kWh)</td>
+      <td>9,019.87</td>
+      <td>8,762.55</td>
+      <td>8,766.36</td>
+    </tr>
+    <tr>
+      <td>Grid exports (kWh)</td>
+      <td>984.89</td>
+      <td>981.72</td>
+      <td>983.04</td>
+    </tr>
+    <tr>
+      <td>Import cost (USD)</td>
+      <td>269.60</td>
+      <td>261.71</td>
+      <td>251.31</td>
+    </tr>
+    <tr>
+      <td>Export credit (USD)</td>
+      <td>26.61</td>
+      <td>26.54</td>
+      <td>26.57</td>
+    </tr>
+    <tr>
+      <td>Net electricity cost (USD)</td>
+      <td>242.98</td>
+      <td>235.17</td>
+      <td>224.74</td>
+    </tr>
+    <tr>
+      <td>Occupied violation integral (K h)</td>
+      <td>8.922</td>
+      <td>2.450</td>
+      <td>2.434</td>
+    </tr>
+    <tr>
+      <td>Maximum occupied deviation (K)</td>
+      <td>0.626</td>
+      <td>0.769</td>
+      <td>0.765</td>
+    </tr>
+  </tbody>
+</table></div><p>Net electricity cost = import cost minus export credit. The same hourly BES-H price is used for import and export; this is an energy-price scenario, not a complete retail bill. Occupied violations sum the distance outside the original scheduled temperature bounds multiplied by interval duration across all occupied zones. They are not simply hours of discomfort.</p><p>HVAC MPC versus conventional: HVAC electricity 4.81% lower, grid imports 2.85% lower, net electricity cost 3.22% lower and occupied violation integral 72.54% lower.</p><p>Coordinated MPC versus conventional: HVAC electricity 4.77% lower, grid imports 2.81% lower, net electricity cost 7.51% lower and occupied violation integral 72.72% lower.</p><p>Coordinated MPC has slightly higher imports than HVAC MPC but lower import expenditure. Export credits are similar. Its financial improvement therefore principally reflects the timing of imported electricity. The coordinated comparison changes both HVAC objectives and battery scheduling; it is not a battery-only ablation.</p>
+<h2>Figures for the thesis</h2><p>Use the vector PDFs in LaTeX. All PDFs embed Times New Roman; 600 dpi PNG copies are provided. A separate enlarged temperature figure accompanies the combined control-response figure. No simulation was rerun or retuned to produce these figures.</p><figure><a href="thesis_figures/figures/matched_energy_and_cost.pdf">Vector PDF</a> | <a href="thesis_figures/figures/matched_energy_and_cost.png">600 dpi PNG</a><br><img src="thesis_figures/figures/matched_energy_and_cost.png" alt="matched energy and cost"><figcaption>HVAC electricity and net electricity cost for the three controllers under the original common temperature-command bounds. Totals cover 216 hours, including conditioning and recovery. Conventional denotes native thermostat/VAV control with reactive supply-air-temperature reset. Net cost is import expenditure less export credit. Parenthetical percentages are signed changes relative to conventional control, calculated from unrounded totals; negative values indicate reductions and positive values indicate increases.</figcaption></figure><figure><a href="thesis_figures/figures/grid_exchange_and_cost.pdf">Vector PDF</a> | <a href="thesis_figures/figures/grid_exchange_and_cost.png">600 dpi PNG</a><br><img src="thesis_figures/figures/grid_exchange_and_cost.png" alt="grid exchange and cost"><figcaption>Grid imports, grid exports, import expenditure and export credit over the same 216-hour period with original common temperature-command bounds. The same hourly BES-H energy price is applied to imports and exports. The panels show distinct quantities and use separate scales; export credit is revenue deducted from import cost. Parenthetical percentages are signed changes relative to conventional control, calculated from unrounded totals; negative values indicate reductions and positive values indicate increases.</figcaption></figure><figure><a href="thesis_figures/figures/matched_comfort.pdf">Vector PDF</a> | <a href="thesis_figures/figures/matched_comfort.png">600 dpi PNG</a><br><img src="thesis_figures/figures/matched_comfort.png" alt="matched comfort"><figcaption>Occupied temperature deviations from the same original scheduled bounds, aggregated across all 15 zones over 216 hours. The integral sums deviation magnitude multiplied by interval duration; the maximum is the largest individual occupied-zone excursion. Lower cumulative violations do not necessarily imply a lower maximum excursion. Parenthetical percentages are signed changes relative to conventional control, calculated from unrounded totals; negative values indicate reductions and positive values indicate increases.</figcaption></figure><figure><a href="thesis_figures/figures/original_bounds_control_response.pdf">Vector PDF</a> | <a href="thesis_figures/figures/original_bounds_control_response.png">600 dpi PNG</a><br><img src="thesis_figures/figures/original_bounds_control_response.png" alt="original bounds control response"><figcaption>Applied supply-air-temperature target and HVAC electrical power for the three original-bound controllers. The displayed 48-hour window is fixed from 22 August at 06:00. The supply-air target is the recorded first-floor command; HVAC power covers the whole building and uses ten-minute interval averages. HVAC MPC is orange with circular markers; coordinated MPC is blue dashed with square markers. Marker positions are staggered to reveal nearly overlapping traces; the data values are unchanged.</figcaption></figure><figure><a href="thesis_figures/figures/original_bounds_zone_temperature.pdf">Vector PDF</a> | <a href="thesis_figures/figures/original_bounds_zone_temperature.png">600 dpi PNG</a><br><img src="thesis_figures/figures/original_bounds_zone_temperature.png" alt="original bounds zone temperature"><figcaption>Enlarged measured zone-temperature comparison for the zone with the largest pooled occupied violation during the seven control days across the three controllers. The fixed 48-hour window starts on 22 August at 06:00, matching the control-response figure. Temperatures refer to interval ends. All controllers use the same temperature axis. The scheduled lower bounds (15.6 and 21 degrees Celsius) are below the displayed range. HVAC MPC is orange with circular markers; coordinated MPC is blue dashed with square markers. Near-coincident traces indicate similar measured temperatures, without any artificial offset.</figcaption></figure><figure><a href="thesis_figures/figures/grid_import_response.pdf">Vector PDF</a> | <a href="thesis_figures/figures/grid_import_response.png">600 dpi PNG</a><br><img src="thesis_figures/figures/grid_import_response.png" alt="grid import response"><figcaption>Grid-import power during the seven evaluation days and common recovery day (shaded). Values are ten-minute interval averages. Conventional control is grey with triangular markers, HVAC MPC is orange with circular markers, and coordinated MPC is blue dashed with square markers. The displayed period matches the separate battery state-of-charge and dispatch figure.</figcaption></figure><figure><a href="thesis_figures/figures/battery_coordination.pdf">Vector PDF</a> | <a href="thesis_figures/figures/battery_coordination.png">600 dpi PNG</a><br><img src="thesis_figures/figures/battery_coordination.png" alt="battery coordination"><figcaption>Battery state of charge and DC battery power during the seven evaluation days and common recovery day (shaded). Conventional and HVAC MPC use greedy battery operation; coordinated MPC jointly schedules HVAC and the battery. Dotted lines denote the common 24 and 92 percent SOC limits. Positive battery power denotes discharging and negative power denotes charging. This compares complete control strategies, rather than isolating battery dispatch while holding HVAC commands fixed. Conventional control is grey with triangular markers, HVAC MPC is orange with circular markers, and coordinated MPC is blue dashed with square markers. Markers appear at different sample positions to distinguish overlapping traces; timestamps and values are unchanged.</figcaption></figure><figure><a href="thesis_figures/figures/battery_coordination_with_price.pdf">Vector PDF</a> | <a href="thesis_figures/figures/battery_coordination_with_price.png">600 dpi PNG</a><br><img src="thesis_figures/figures/battery_coordination_with_price.png" alt="battery coordination with price"><figcaption>Optional price-aligned view of battery SOC and DC dispatch. The bottom panel shows the common hourly BES-H electricity price (USD/kWh), not accumulated expenditure. The original 2025 price sequence is mapped to simulation month, day and hour using the saved standard-time convention. The same energy price values imports and exports. SOC values refer to interval ends; dispatch values are ten-minute averages. Positive power denotes discharge and negative power denotes charge. Dotted lines mark the 24 and 92 percent SOC bounds; the recovery day is shaded. This illustrates dispatch timing, but does not isolate battery-policy benefits from changes in HVAC control.</figcaption></figure><figure><a href="thesis_figures/figures/saved_predictive_plan.pdf">Vector PDF</a> | <a href="thesis_figures/figures/saved_predictive_plan.png">600 dpi PNG</a><br><img src="thesis_figures/figures/saved_predictive_plan.png" alt="saved predictive plan"><figcaption>Saved 48-hour coordinated-MPC plan starting on 22 August at 06:00: RC-predicted temperature, cooling target, supply-air-temperature target and electrical powers. These are predictions and planned inputs, not realised future measurements. Only the first action was applied before measurements were updated and the controller replanned.</figcaption></figure><details><summary>Objective coefficients and interpretation limits</summary>
+<p>Conventional control does not minimise an objective. Zeros in its coefficient row denote absent terms. Both MPC controllers use comfort weight 10; the coordinated controller uses grid-import weight 10 and net-price weight 1.</p><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>case</th>
+      <th>controller</th>
+      <th>optimises_objective</th>
+      <th>horizon_hours</th>
+      <th>grid_import_weight</th>
+      <th>price_weight</th>
+      <th>HVAC_energy_weight</th>
+      <th>comfort_weight</th>
+      <th>battery_throughput_weight</th>
+      <th>setpoint_movement_weight</th>
+      <th>SAT_movement_weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>original_reactive</td>
+      <td>Conventional</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>original_hvac_mpc</td>
+      <td>HVAC MPC</td>
+      <td>True</td>
+      <td>48.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10.0</td>
+      <td>10.0</td>
+      <td>0.00</td>
+      <td>0.05</td>
+      <td>0.1</td>
+    </tr>
+    <tr>
+      <td>original_coordinated</td>
+      <td>Coordinated MPC</td>
+      <td>True</td>
+      <td>48.0</td>
+      <td>10.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>10.0</td>
+      <td>0.01</td>
+      <td>0.05</td>
+      <td>0.1</td>
+    </tr>
+  </tbody>
+</table></div><p>This is an exploratory summer-week simulation. It does not establish annual savings or superiority over all conventional tuning. The original unmodified EnergyPlus control is a different baseline and previously achieved tighter temperature tracking. Supporting fixed-SAT and one-step-RC cases remain in the complete study; the one-step case performed almost identically to the 48-hour HVAC MPC, so the longer horizon did not demonstrate a material additional HVAC-energy benefit. RC modelling is demonstrated as an input to control; this comparison does not isolate the causal benefit of topology discovery.</p>
+<p>Cumulative occupied violations fall, but the largest occupied excursion is slightly higher for MPC. These are temperature-tracking metrics, not a full comfort or indoor-air-quality certification. The recovery day and equal final battery SOC reduce endpoint bias without proving equal hidden building thermal energy.</p></details>
+<details><summary>Complete study and verification</summary>
+<p><a href="comparison.csv">All ten saved cases</a> | <a href="incremental_comparisons.csv">All paired comparisons</a> | <a href="fairness_audit.csv">Native verification audit</a></p>
+<p>All ten cases have no severe EnergyPlus errors, matched input hashes and conditioning trajectories, common SOC limits, valid applied cooling commands, and reconciled native electrical meters. Native battery power slightly exceeded the nominal 50 kW request in some cases; original flags remain in the audit. Ventilation is audited against the unchanged IDF design quantity, not a legal compliance standard.</p>
+</details></html>

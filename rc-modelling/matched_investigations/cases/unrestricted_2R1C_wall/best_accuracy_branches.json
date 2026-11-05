@@ -1,0 +1,1172 @@
+[
+  {
+    "i": 0,
+    "j": 1,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 2,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 3,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 4,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 5,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 6,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 7,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 2,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 3,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 4,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 5,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 6,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 7,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 1,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 3,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 4,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 5,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 6,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 7,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 2,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 4,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 5,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 6,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 7,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 3,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 5,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 6,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 7,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 4,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 6,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 7,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 5,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 7,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 6,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 7,
+    "j": 8,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 7,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 7,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 7,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 7,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 7,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 7,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 8,
+    "j": 9,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 8,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 8,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 8,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 8,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 8,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 9,
+    "j": 10,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 9,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 9,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 9,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 9,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 10,
+    "j": 11,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 10,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 10,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 10,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 11,
+    "j": 12,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 11,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 11,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 12,
+    "j": 13,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 12,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 13,
+    "j": 14,
+    "kind": "interzone",
+    "tau": 0.48119207491319455
+  },
+  {
+    "i": 0,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 0,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 0,
+    "j": 1,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 0,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 0,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 0,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 1,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 1,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 1,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 1,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 1,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 1,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 2,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 2,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 2,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 2,
+    "j": 2,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 2,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 2,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 3,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 3,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 3,
+    "j": 1,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 3,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 3,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 3,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 4,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 4,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 4,
+    "j": 1,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 4,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 4,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 4,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 5,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 5,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 5,
+    "j": 1,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 5,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 5,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 5,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 6,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 6,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 6,
+    "j": 1,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 6,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 6,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 6,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 7,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 7,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 7,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 7,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 7,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 7,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 8,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 8,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 8,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 8,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 8,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 8,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 9,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 9,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 9,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 9,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 9,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 9,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 10,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 10,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 10,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 10,
+    "j": 2,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 10,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 10,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 11,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 11,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 11,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 11,
+    "j": 2,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 11,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 11,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 12,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 12,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 12,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 12,
+    "j": 2,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 12,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 12,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 13,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 13,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 13,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 13,
+    "j": 2,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 13,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 13,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  },
+  {
+    "i": 14,
+    "j": 0,
+    "kind": "outdoor_direct",
+    "tau": 0.0
+  },
+  {
+    "i": 14,
+    "j": 0,
+    "kind": "outdoor_storage",
+    "tau": 12.0
+  },
+  {
+    "i": 14,
+    "j": 1,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 14,
+    "j": 2,
+    "kind": "plenum_lower",
+    "tau": 12.0
+  },
+  {
+    "i": 14,
+    "j": 3,
+    "kind": "plenum_upper_or_remote",
+    "tau": 0.0
+  },
+  {
+    "i": 14,
+    "j": 4,
+    "kind": "ground",
+    "tau": 0.0
+  }
+]

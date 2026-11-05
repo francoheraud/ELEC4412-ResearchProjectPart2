@@ -1,0 +1,39 @@
+{
+  "source": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\ep-data\\RealTime_BES-H_Prices_Annual.csv",
+  "source_sha256": "8d5fca001d6b865d81d920997a2fe5f74c3e4d11d2ebb2f1b9a588202da6400c",
+  "mapping": "Row 0 is assigned to Jan 1 00:00-01:00 in a consecutive non-leap standard-time scenario. Map simulation month/day/hour to that sequence. Original labels retained; no inferred DST correction.",
+  "figure_period": "21-28 August 2017: controller evaluation and recovery; conditioning omitted",
+  "energy_and_cost_period": "20-28 August 2017, 216 hours: one conditioning day, seven controller evaluation days and one common recovery day",
+  "discharge_weighted_price_period": "21-27 August 2017: controller evaluation only",
+  "price_definition": "Common hourly BES-H import/export price, not expenditure; energy-only scenario",
+  "interpretation_limit": "Both HVAC objective and battery policy differ; this is not an isolated battery-policy experiment.",
+  "results": [
+    {
+      "case": "original_reactive",
+      "import_kWh": 9019.866377433102,
+      "import_expenditure_USD": 269.5955377943534,
+      "export_revenue_USD": 26.612709993506158,
+      "net_cost_USD": 242.98282780084725,
+      "import_weighted_price_USD_per_kWh": 0.029889083331528867,
+      "control_discharge_weighted_price_USD_per_kWh": 0.03220782773694563
+    },
+    {
+      "case": "original_hvac_mpc",
+      "import_kWh": 8762.548962274053,
+      "import_expenditure_USD": 261.71051529922056,
+      "export_revenue_USD": 26.541611309055938,
+      "net_cost_USD": 235.1689039901646,
+      "import_weighted_price_USD_per_kWh": 0.029866938995260297,
+      "control_discharge_weighted_price_USD_per_kWh": 0.032549914428109526
+    },
+    {
+      "case": "original_coordinated",
+      "import_kWh": 8766.362196153235,
+      "import_expenditure_USD": 251.3116014554077,
+      "export_revenue_USD": 26.573866963953733,
+      "net_cost_USD": 224.73773449145398,
+      "import_weighted_price_USD_per_kWh": 0.028667718243000004,
+      "control_discharge_weighted_price_USD_per_kWh": 0.05473619066096724
+    }
+  ]
+}

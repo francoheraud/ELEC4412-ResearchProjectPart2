@@ -1,0 +1,8 @@
+{
+  "variant": "savgol_tau0.481192075",
+  "rank": 197,
+  "columns": 197,
+  "rows": 94800,
+  "training_indices_sha256": "3c89fb03242aafd84f8d2dba86d7642f4a77cd94d37108fcdbb65473ecdc3885",
+  "condition": 110.48802920671261
+}

@@ -1,0 +1,14 @@
+{
+  "best_accuracy": {
+    "max_real_eigenvalue": -0.04764787535324271,
+    "equilibrium_residual": 2.8421709430404007e-13,
+    "reciprocity_passed": true,
+    "bounds_passed": true
+  },
+  "sparse": {
+    "max_real_eigenvalue": -0.04788148720632139,
+    "equilibrium_residual": 1.1368683772161603e-13,
+    "reciprocity_passed": true,
+    "bounds_passed": true
+  }
+}

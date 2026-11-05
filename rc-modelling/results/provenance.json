@@ -1,0 +1,10 @@
+{
+  "source_idf": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\ep-data\\with-pv\\RefBldgMediumOfficeNew2004_Chicago_GridConnectedPV.idf",
+  "source_sha256": "2869f365c4840467dbff91036fa285af1f76104c8d0b91d7b134d67d4ac398df",
+  "sql": "C:\\Users\\Franc\\Documents\\Codex\\2026-09-20\\can-x20\\rc_modelling_delivery\\results\\instrumented_energyplus\\run\\eplusout.sql",
+  "elapsed_seconds": 53.192140400002245,
+  "python": "3.11.13",
+  "numpy": "1.26.4",
+  "validation_protocol": "held-out seasonal blocks, not cross-validation; final test untouched by selection",
+  "deployment_status": "Offline known-input validation only; no HVAC actuator mapping or MPC controller implemented"
+}

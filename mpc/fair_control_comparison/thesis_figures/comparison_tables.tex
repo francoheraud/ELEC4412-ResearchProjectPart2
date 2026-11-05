@@ -1,0 +1,21 @@
+% Requires booktabs. Original-bound three-controller comparison only.
+\begin{table}[htbp]
+\centering\small
+\caption{Conventional and MPC comparison over 216 hours under the original common temperature-command bounds. Conventional control includes reactive supply-air-temperature reset. Net electricity cost is import cost less export credit.}
+\label{tab:matched-control-original}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Metric & Conventional & HVAC MPC & Coordinated MPC \\
+\midrule
+HVAC electricity (kWh) & 5,287.85 & 5,033.27 & 5,035.63 \\
+Whole-building electricity (kWh) & 17,847.63 & 17,593.05 & 17,595.41 \\
+Grid imports (kWh) & 9,019.87 & 8,762.55 & 8,766.36 \\
+Grid exports (kWh) & 984.89 & 981.72 & 983.04 \\
+Import cost (USD) & 269.60 & 261.71 & 251.31 \\
+Export credit (USD) & 26.61 & 26.54 & 26.57 \\
+Net electricity cost (USD) & 242.98 & 235.17 & 224.74 \\
+Occupied violation integral (K\,h) & 8.922 & 2.450 & 2.434 \\
+Maximum occupied deviation (K) & 0.626 & 0.769 & 0.765 \\
+\bottomrule
+\end{tabular}
+\end{table}

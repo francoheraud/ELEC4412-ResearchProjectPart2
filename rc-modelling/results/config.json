@@ -1,0 +1,79 @@
+{
+  "implementation": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation",
+  "output": "C:\\Users\\Franc\\Documents\\Codex\\2026-09-20\\can-x20\\rc_modelling_delivery\\results",
+  "energyplus": "C:\\EnergyPlusV25-2-0\\energyplus.exe",
+  "dt_hours": 0.16666666666666666,
+  "methods": [
+    "trapezoidal",
+    "savgol"
+  ],
+  "lambdas": [
+    0.0,
+    1e-06,
+    3.162277660168379e-06,
+    1e-05,
+    3.1622776601683795e-05,
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0
+  ],
+  "support_tol": 1e-06,
+  "sg_window": 7,
+  "sg_order": 2,
+  "radiant_tau_hours": 2.0,
+  "solar_tau_hours": 3.0,
+  "c_bounds": [
+    0.01,
+    1000.0
+  ],
+  "g_bounds": [
+    0.0,
+    100.0
+  ],
+  "beta_bounds": [
+    0.0,
+    2.0
+  ],
+  "train_months": [
+    1,
+    4,
+    7,
+    10
+  ],
+  "train_days": [
+    1,
+    14
+  ],
+  "validation_days": [
+    15,
+    21
+  ],
+  "test_months": [
+    2,
+    5,
+    8,
+    11
+  ],
+  "test_days": [
+    15,
+    21
+  ],
+  "horizons_hours": [
+    1,
+    6,
+    24,
+    72
+  ],
+  "selection_horizon_hours": 24,
+  "selection_tolerance_C": 0.02
+}

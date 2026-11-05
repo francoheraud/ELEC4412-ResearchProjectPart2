@@ -1,0 +1,61 @@
+{
+  "python_files_compiled": 56,
+  "notebook_execution": "Python cells executed sequentially with IPython display objects; no live Jupyter kernel or EnergyPlus rerun",
+  "notebooks": [
+    {
+      "notebook": "mpc/fair_control_comparison/Fair_Control_Comparison.ipynb",
+      "cells_executed": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "rc-modelling/matched_investigations/Overview.ipynb",
+      "cells_executed": 4,
+      "status": "passed"
+    },
+    {
+      "notebook": "rc-modelling/matched_investigations/01_candidate_connectivity/Review.ipynb",
+      "cells_executed": 8,
+      "status": "passed"
+    },
+    {
+      "notebook": "rc-modelling/matched_investigations/02_branch_complexity/Review.ipynb",
+      "cells_executed": 8,
+      "status": "passed"
+    },
+    {
+      "notebook": "rc-modelling/matched_investigations/03_physical_information/Review.ipynb",
+      "cells_executed": 8,
+      "status": "passed"
+    },
+    {
+      "notebook": "rc-modelling/matched_investigations/3R2C_extension/02_branch_complexity/Review.ipynb",
+      "cells_executed": 9,
+      "status": "passed"
+    }
+  ],
+  "credential_pattern_scan": "No matches for the checked token/private-key formats",
+  "date": "2026-11-05",
+  "numerical_tests": {
+    "matched_RC": 7,
+    "branch_extension": 11,
+    "MPC": 10,
+    "total": 28,
+    "status": "passed"
+  },
+  "inputs": {
+    "rc_temperature_shape": [
+      52560,
+      15
+    ],
+    "split_block_counts": {
+      "train": 4,
+      "validation": 4,
+      "test": 4
+    },
+    "mpc_states": 45,
+    "battery_capacity_kWh": 413.2530048,
+    "setup_from_checkout": "passed",
+    "full_simulation_rerun": false
+  },
+  "scope": "Packaging validation only. Archived numerical results unchanged; no new full EnergyPlus evaluation."
+}

@@ -1,0 +1,29 @@
+{
+  "thesis_figures/figures/battery_coordination.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/grid_exchange_and_cost.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/matched_comfort.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/matched_energy_and_cost.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/original_bounds_control_response.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/original_bounds_zone_temperature.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/saved_predictive_plan.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/grid_import_response.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ],
+  "thesis_figures/figures/battery_coordination_with_price.pdf": [
+    "/FHXFSG+TimesNewRomanPSMT"
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "coefficients": [
+    [
+      [
+        0.1620929096135477,
+        2.0514409840744348,
+        0.7797512991886976
+      ],
+      [
+        0.2420377352519776,
+        0.0,
+        0.7484483114845655
+      ],
+      [
+        0.2609666325613423,
+        0.0,
+        0.6916050531062968
+      ]
+    ],
+    [
+      [
+        0.1766915888715597,
+        0.0,
+        0.8498188978755037
+      ],
+      [
+        0.17174782400719005,
+        0.0,
+        0.9078293523110765
+      ],
+      [
+        0.18675655225163657,
+        0.0,
+        0.8590917741524406
+      ]
+    ],
+    [
+      [
+        0.22729714667234158,
+        0.0,
+        0.8878470872394334
+      ],
+      [
+        0.21945444080119575,
+        0.0,
+        0.8844843973219697
+      ],
+      [
+        0.22089006266464437,
+        0.0,
+        0.8292672957437847
+      ]
+    ],
+    [
+      [
+        0.3030205162501323,
+        0.0,
+        0.6304252014367114
+      ],
+      [
+        0.2579997307438736,
+        0.0,
+        0.8296403282508025
+      ],
+      [
+        0.25164188275696747,
+        0.0,
+        0.830336501142362
+      ]
+    ],
+    [
+      [
+        0.10804443641097679,
+        0.0,
+        0.9511606359591535
+      ],
+      [
+        0.10156314354045362,
+        0.0,
+        0.9845921491654596
+      ],
+      [
+        0.12972844234698186,
+        0.0,
+        0.9213293209132618
+      ]
+    ]
+  ],
+  "sat_levels": [
+    12.8,
+    14.0,
+    15.5,
+    17.0,
+    18.0
+  ],
+  "features": [
+    "floor net delivered sensible cooling kW",
+    "fan operating indicator",
+    "max(outdoor_C-18,0)*fan_on"
+  ],
+  "target": "DX cooling plus fan electricity; heating accounted separately by thermal rollout",
+  "training_dates": "2017-08-07 to 2017-08-10",
+  "validation_dates": "2017-08-11 to 2017-08-13",
+  "evaluation_dates": "2017-08-21 to 2017-08-27",
+  "component_meter_max_error_kWh": 3.552713678800501e-15,
+  "diagnostics": [
+    {
+      "SAT_C": 12.8,
+      "floor": 0,
+      "split": "training",
+      "count": 264,
+      "operating_count": 72,
+      "RMSE_kW": 0.7700674237171073,
+      "operating_RMSE_kW": 1.4745668525336892
+    },
+    {
+      "SAT_C": 12.8,
+      "floor": 0,
+      "split": "validation",
+      "count": 270,
+      "operating_count": 54,
+      "RMSE_kW": 1.0274426067241074,
+      "operating_RMSE_kW": 2.2974315116146866
+    },
+    {
+      "SAT_C": 12.8,
+      "floor": 1,
+      "split": "training",
+      "count": 264,
+      "operating_count": 75,
+      "RMSE_kW": 0.9546300649247775,
+      "operating_RMSE_kW": 1.7910447605297761
+    },
+    {
+      "SAT_C": 12.8,
+      "floor": 1,
+      "split": "validation",
+      "count": 270,
+      "operating_count": 62,
+      "RMSE_kW": 0.9269022084900856,
+      "operating_RMSE_kW": 1.9342827298928413
+    },
+    {
+      "SAT_C": 12.8,
+      "floor": 2,
+      "split": "training",
+      "count": 264,
+      "operating_count": 75,
+      "RMSE_kW": 0.9762703851923602,
+      "operating_RMSE_kW": 1.8316456002220547
+    },
+    {
+      "SAT_C": 12.8,
+      "floor": 2,
+      "split": "validation",
+      "count": 270,
+      "operating_count": 60,
+      "RMSE_kW": 0.6014107267861194,
+      "operating_RMSE_kW": 1.2757848095663853
+    },
+    {
+      "SAT_C": 14.0,
+      "floor": 0,
+      "split": "training",
+      "count": 96,
+      "operating_count": 96,
+      "RMSE_kW": 1.397280155892778,
+      "operating_RMSE_kW": 1.397280155892778
+    },
+    {
+      "SAT_C": 14.0,
+      "floor": 0,
+      "split": "validation",
+      "count": 18,
+      "operating_count": 18,
+      "RMSE_kW": 2.264881029506431,
+      "operating_RMSE_kW": 2.264881029506431
+    },
+    {
+      "SAT_C": 14.0,
+      "floor": 1,
+      "split": "training",
+      "count": 96,
+      "operating_count": 96,
+      "RMSE_kW": 1.4482931329473638,
+      "operating_RMSE_kW": 1.4482931329473638
+    },
+    {
+      "SAT_C": 14.0,
+      "floor": 1,
+      "split": "validation",
+      "count": 18,
+      "operating_count": 18,
+      "RMSE_kW": 2.264700537140636,
+      "operating_RMSE_kW": 2.264700537140636
+    },
+    {
+      "SAT_C": 14.0,
+      "floor": 2,
+      "split": "training",
+      "count": 96,
+      "operating_count": 96,
+      "RMSE_kW": 1.3264588055167275,
+      "operating_RMSE_kW": 1.3264588055167275
+    },
+    {
+      "SAT_C": 14.0,
+      "floor": 2,
+      "split": "validation",
+      "count": 18,
+      "operating_count": 18,
+      "RMSE_kW": 1.939499299962077,
+      "operating_RMSE_kW": 1.939499299962077
+    },
+    {
+      "SAT_C": 15.5,
+      "floor": 0,
+      "split": "training",
+      "count": 42,
+      "operating_count": 42,
+      "RMSE_kW": 2.2209308785485313,
+      "operating_RMSE_kW": 2.2209308785485313
+    },
+    {
+      "SAT_C": 15.5,
+      "floor": 0,
+      "split": "validation",
+      "count": 60,
+      "operating_count": 60,
+      "RMSE_kW": 1.0970303476095624,
+      "operating_RMSE_kW": 1.0970303476095624
+    },
+    {
+      "SAT_C": 15.5,
+      "floor": 1,
+      "split": "training",
+      "count": 42,
+      "operating_count": 42,
+      "RMSE_kW": 2.025437884812869,
+      "operating_RMSE_kW": 2.025437884812869
+    },
+    {
+      "SAT_C": 15.5,
+      "floor": 1,
+      "split": "validation",
+      "count": 60,
+      "operating_count": 60,
+      "RMSE_kW": 1.1487412400280939,
+      "operating_RMSE_kW": 1.1487412400280939
+    },
+    {
+      "SAT_C": 15.5,
+      "floor": 2,
+      "split": "training",
+      "count": 42,
+      "operating_count": 42,
+      "RMSE_kW": 1.5480040835803095,
+      "operating_RMSE_kW": 1.5480040835803095
+    },
+    {
+      "SAT_C": 15.5,
+      "floor": 2,
+      "split": "validation",
+      "count": 60,
+      "operating_count": 60,
+      "RMSE_kW": 1.23194735647247,
+      "operating_RMSE_kW": 1.23194735647247
+    },
+    {
+      "SAT_C": 17.0,
+      "floor": 0,
+      "split": "training",
+      "count": 84,
+      "operating_count": 84,
+      "RMSE_kW": 2.8220150576138328,
+      "operating_RMSE_kW": 2.8220150576138328
+    },
+    {
+      "SAT_C": 17.0,
+      "floor": 0,
+      "split": "validation",
+      "count": 78,
+      "operating_count": 78,
+      "RMSE_kW": 2.393081718376207,
+      "operating_RMSE_kW": 2.393081718376207
+    },
+    {
+      "SAT_C": 17.0,
+      "floor": 1,
+      "split": "training",
+      "count": 84,
+      "operating_count": 84,
+      "RMSE_kW": 2.9166120494504604,
+      "operating_RMSE_kW": 2.9166120494504604
+    },
+    {
+      "SAT_C": 17.0,
+      "floor": 1,
+      "split": "validation",
+      "count": 78,
+      "operating_count": 78,
+      "RMSE_kW": 2.705025696686085,
+      "operating_RMSE_kW": 2.705025696686085
+    },
+    {
+      "SAT_C": 17.0,
+      "floor": 2,
+      "split": "training",
+      "count": 84,
+      "operating_count": 84,
+      "RMSE_kW": 2.594482095062525,
+      "operating_RMSE_kW": 2.594482095062525
+    },
+    {
+      "SAT_C": 17.0,
+      "floor": 2,
+      "split": "validation",
+      "count": 78,
+      "operating_count": 78,
+      "RMSE_kW": 2.4677176925441664,
+      "operating_RMSE_kW": 2.4677176925441664
+    },
+    {
+      "SAT_C": 18.0,
+      "floor": 0,
+      "split": "training",
+      "count": 90,
+      "operating_count": 90,
+      "RMSE_kW": 1.3795354268893576,
+      "operating_RMSE_kW": 1.3795354268893576
+    },
+    {
+      "SAT_C": 18.0,
+      "floor": 0,
+      "split": "validation",
+      "count": 6,
+      "operating_count": 6,
+      "RMSE_kW": 0.7891019145754671,
+      "operating_RMSE_kW": 0.7891019145754671
+    },
+    {
+      "SAT_C": 18.0,
+      "floor": 1,
+      "split": "training",
+      "count": 90,
+      "operating_count": 90,
+      "RMSE_kW": 1.183538717992465,
+      "operating_RMSE_kW": 1.183538717992465
+    },
+    {
+      "SAT_C": 18.0,
+      "floor": 1,
+      "split": "validation",
+      "count": 6,
+      "operating_count": 6,
+      "RMSE_kW": 2.2630552507322066,
+      "operating_RMSE_kW": 2.2630552507322066
+    },
+    {
+      "SAT_C": 18.0,
+      "floor": 2,
+      "split": "training",
+      "count": 90,
+      "operating_count": 90,
+      "RMSE_kW": 1.4161586922218732,
+      "operating_RMSE_kW": 1.4161586922218732
+    },
+    {
+      "SAT_C": 18.0,
+      "floor": 2,
+      "split": "validation",
+      "count": 6,
+      "operating_count": 6,
+      "RMSE_kW": 2.474091273074427,
+      "operating_RMSE_kW": 2.474091273074427
+    }
+  ],
+  "source_sha256": "e0ad22ba6789df5f205c06ba5932e5f5f4d1411c8b43de27101d4d77ee62f08b",
+  "limitation": "The independent electrical calibration run failed its battery SOC check. HVAC component-meter reconciliation passed; battery outcomes from that run are not used in this fit or as controller results. Electrical prediction remains an approximation, especially during policy transitions."
+}

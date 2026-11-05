@@ -1,0 +1,215 @@
+{
+  "coefficients": [
+    [
+      [
+        0.4027896333629222,
+        0.0,
+        0.5266006794855951
+      ],
+      [
+        0.3946792657010895,
+        0.0,
+        0.5299847971645993
+      ],
+      [
+        0.37357290000599175,
+        0.0,
+        0.6814456169248222
+      ]
+    ],
+    [
+      [
+        0.2983330055518096,
+        0.0,
+        0.882891085862558
+      ],
+      [
+        0.31525532723108984,
+        0.0,
+        0.8286375027332349
+      ],
+      [
+        0.2928853124373323,
+        0.0,
+        1.0317081184026542
+      ]
+    ],
+    [
+      [
+        0.26571180373726866,
+        0.0,
+        0.9611354531809386
+      ],
+      [
+        0.26010141910060325,
+        0.0,
+        0.9553091411525523
+      ],
+      [
+        0.2704033430245631,
+        0.0,
+        1.000068368267188
+      ]
+    ]
+  ],
+  "features": [
+    "floor net sensible cooling kW",
+    "fan operating indicator",
+    "max(outdoor_C-18,0)*fan_on"
+  ],
+  "sat_levels": [
+    12.8,
+    14.0,
+    15.5
+  ],
+  "training_dates": "2017-07-02 to 2017-07-10",
+  "validation_dates": "2017-07-11 to 2017-07-14",
+  "component_meter_max_error_kWh": 3.552713678800501e-15,
+  "diagnostics": [
+    {
+      "sat_C": 12.8,
+      "floor": 0,
+      "split": "training",
+      "count": 444,
+      "RMSE_kW": 1.8346729688700498,
+      "mean_actual_kW": 8.500114245922209
+    },
+    {
+      "sat_C": 12.8,
+      "floor": 0,
+      "split": "validation",
+      "count": 192,
+      "RMSE_kW": 1.846756151391637,
+      "mean_actual_kW": 13.202795900970052
+    },
+    {
+      "sat_C": 12.8,
+      "floor": 1,
+      "split": "training",
+      "count": 444,
+      "RMSE_kW": 1.8691576789372333,
+      "mean_actual_kW": 8.94610077258527
+    },
+    {
+      "sat_C": 12.8,
+      "floor": 1,
+      "split": "validation",
+      "count": 192,
+      "RMSE_kW": 1.852253598083178,
+      "mean_actual_kW": 13.151617670143755
+    },
+    {
+      "sat_C": 12.8,
+      "floor": 2,
+      "split": "training",
+      "count": 444,
+      "RMSE_kW": 1.9764782749919116,
+      "mean_actual_kW": 9.610698520717076
+    },
+    {
+      "sat_C": 12.8,
+      "floor": 2,
+      "split": "validation",
+      "count": 192,
+      "RMSE_kW": 1.936013819024089,
+      "mean_actual_kW": 13.66745763393903
+    },
+    {
+      "sat_C": 14.0,
+      "floor": 0,
+      "split": "training",
+      "count": 408,
+      "RMSE_kW": 1.936524499809067,
+      "mean_actual_kW": 7.608736381061125
+    },
+    {
+      "sat_C": 14.0,
+      "floor": 0,
+      "split": "validation",
+      "count": 156,
+      "RMSE_kW": 1.5019963043680862,
+      "mean_actual_kW": 7.323938970402221
+    },
+    {
+      "sat_C": 14.0,
+      "floor": 1,
+      "split": "training",
+      "count": 408,
+      "RMSE_kW": 2.0503073288719382,
+      "mean_actual_kW": 8.060683674398582
+    },
+    {
+      "sat_C": 14.0,
+      "floor": 1,
+      "split": "validation",
+      "count": 156,
+      "RMSE_kW": 1.4527640001521105,
+      "mean_actual_kW": 7.545900595941021
+    },
+    {
+      "sat_C": 14.0,
+      "floor": 2,
+      "split": "training",
+      "count": 408,
+      "RMSE_kW": 2.105478369382799,
+      "mean_actual_kW": 8.782262523405175
+    },
+    {
+      "sat_C": 14.0,
+      "floor": 2,
+      "split": "validation",
+      "count": 156,
+      "RMSE_kW": 1.5425608551015968,
+      "mean_actual_kW": 7.705999653644747
+    },
+    {
+      "sat_C": 15.5,
+      "floor": 0,
+      "split": "training",
+      "count": 444,
+      "RMSE_kW": 1.9426723078088313,
+      "mean_actual_kW": 6.849106795608446
+    },
+    {
+      "sat_C": 15.5,
+      "floor": 0,
+      "split": "validation",
+      "count": 228,
+      "RMSE_kW": 1.7893519789113546,
+      "mean_actual_kW": 10.209998367724218
+    },
+    {
+      "sat_C": 15.5,
+      "floor": 1,
+      "split": "training",
+      "count": 444,
+      "RMSE_kW": 1.9594009174963454,
+      "mean_actual_kW": 7.094967498623454
+    },
+    {
+      "sat_C": 15.5,
+      "floor": 1,
+      "split": "validation",
+      "count": 228,
+      "RMSE_kW": 1.6776928323447178,
+      "mean_actual_kW": 10.252314883296254
+    },
+    {
+      "sat_C": 15.5,
+      "floor": 2,
+      "split": "training",
+      "count": 444,
+      "RMSE_kW": 2.0601150402346713,
+      "mean_actual_kW": 7.919931991958855
+    },
+    {
+      "sat_C": 15.5,
+      "floor": 2,
+      "split": "validation",
+      "count": 228,
+      "RMSE_kW": 1.5527275637739402,
+      "mean_actual_kW": 10.862870229415751
+    }
+  ],
+  "scope": "Separate air-system fits; measured component electricity includes DX cooling, fans and terminal electric reheat. No cross-floor attribution from aggregate building electricity."
+}

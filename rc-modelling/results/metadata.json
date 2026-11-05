@@ -1,0 +1,198 @@
+{
+  "zones": [
+    "CORE_BOTTOM",
+    "CORE_MID",
+    "CORE_TOP",
+    "PERIMETER_BOT_ZN_1",
+    "PERIMETER_BOT_ZN_2",
+    "PERIMETER_BOT_ZN_3",
+    "PERIMETER_BOT_ZN_4",
+    "PERIMETER_MID_ZN_1",
+    "PERIMETER_MID_ZN_2",
+    "PERIMETER_MID_ZN_3",
+    "PERIMETER_MID_ZN_4",
+    "PERIMETER_TOP_ZN_1",
+    "PERIMETER_TOP_ZN_2",
+    "PERIMETER_TOP_ZN_3",
+    "PERIMETER_TOP_ZN_4"
+  ],
+  "plenums": [
+    "FIRSTFLOOR_PLENUM",
+    "MIDFLOOR_PLENUM",
+    "TOPFLOOR_PLENUM"
+  ],
+  "ground_monthly_C": [
+    19.527,
+    19.502,
+    19.536,
+    19.598,
+    20.002,
+    21.64,
+    22.225,
+    22.375,
+    21.449,
+    20.121,
+    19.802,
+    19.633
+  ],
+  "windows": {
+    "CORE_BOTTOM": [],
+    "CORE_MID": [],
+    "CORE_TOP": [],
+    "PERIMETER_BOT_ZN_1": [
+      "PERIMETER_BOT_ZN_1_WALL_SOUTH_WINDOW"
+    ],
+    "PERIMETER_BOT_ZN_2": [
+      "PERIMETER_BOT_ZN_2_WALL_EAST_WINDOW"
+    ],
+    "PERIMETER_BOT_ZN_3": [
+      "PERIMETER_BOT_ZN_3_WALL_NORTH_WINDOW"
+    ],
+    "PERIMETER_BOT_ZN_4": [
+      "PERIMETER_BOT_ZN_4_WALL_WEST_WINDOW"
+    ],
+    "PERIMETER_MID_ZN_1": [
+      "PERIMETER_MID_ZN_1_WALL_SOUTH_WINDOW"
+    ],
+    "PERIMETER_MID_ZN_2": [
+      "PERIMETER_MID_ZN_2_WALL_EAST_WINDOW"
+    ],
+    "PERIMETER_MID_ZN_3": [
+      "PERIMETER_MID_ZN_3_WALL_NORTH_WINDOW"
+    ],
+    "PERIMETER_MID_ZN_4": [
+      "PERIMETER_MID_ZN_4_WALL_WEST_WINDOW"
+    ],
+    "PERIMETER_TOP_ZN_1": [
+      "PERIMETER_TOP_ZN_1_WALL_SOUTH_WINDOW"
+    ],
+    "PERIMETER_TOP_ZN_2": [
+      "PERIMETER_TOP_ZN_2_WALL_EAST_WINDOW"
+    ],
+    "PERIMETER_TOP_ZN_3": [
+      "PERIMETER_TOP_ZN_3_WALL_NORTH_WINDOW"
+    ],
+    "PERIMETER_TOP_ZN_4": [
+      "PERIMETER_TOP_ZN_4_WALL_WEST_WINDOW"
+    ]
+  },
+  "manual_edges": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      2,
+      12
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "simulation_start_weekday": "Sunday",
+  "zone_multipliers": {
+    "CORE_BOTTOM": 1.0,
+    "CORE_MID": 1.0,
+    "CORE_TOP": 1.0,
+    "FIRSTFLOOR_PLENUM": 1.0,
+    "MIDFLOOR_PLENUM": 1.0,
+    "PERIMETER_BOT_ZN_1": 1.0,
+    "PERIMETER_BOT_ZN_2": 1.0,
+    "PERIMETER_BOT_ZN_3": 1.0,
+    "PERIMETER_BOT_ZN_4": 1.0,
+    "PERIMETER_MID_ZN_1": 1.0,
+    "PERIMETER_MID_ZN_2": 1.0,
+    "PERIMETER_MID_ZN_3": 1.0,
+    "PERIMETER_MID_ZN_4": 1.0,
+    "PERIMETER_TOP_ZN_1": 1.0,
+    "PERIMETER_TOP_ZN_2": 1.0,
+    "PERIMETER_TOP_ZN_3": 1.0,
+    "PERIMETER_TOP_ZN_4": 1.0,
+    "TOPFLOOR_PLENUM": 1.0
+  }
+}

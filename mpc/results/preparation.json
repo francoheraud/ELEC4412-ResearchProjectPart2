@@ -1,0 +1,64 @@
+{
+  "source_idf": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\ep-data\\with-pv\\RefBldgMediumOfficeNew2004_Chicago_GridConnectedPV.idf",
+  "source_sha256": "2869f365c4840467dbff91036fa285af1f76104c8d0b91d7b134d67d4ac398df",
+  "zones": [
+    "CORE_BOTTOM",
+    "CORE_MID",
+    "CORE_TOP",
+    "PERIMETER_BOT_ZN_1",
+    "PERIMETER_BOT_ZN_2",
+    "PERIMETER_BOT_ZN_3",
+    "PERIMETER_BOT_ZN_4",
+    "PERIMETER_MID_ZN_1",
+    "PERIMETER_MID_ZN_2",
+    "PERIMETER_MID_ZN_3",
+    "PERIMETER_MID_ZN_4",
+    "PERIMETER_TOP_ZN_1",
+    "PERIMETER_TOP_ZN_2",
+    "PERIMETER_TOP_ZN_3",
+    "PERIMETER_TOP_ZN_4"
+  ],
+  "plenums": [
+    "FIRSTFLOOR_PLENUM",
+    "MIDFLOOR_PLENUM",
+    "TOPFLOOR_PLENUM"
+  ],
+  "assumed_calendar_year": 2017,
+  "forecast_assumption": "Perfect weather/PV/fixed gain schedules from an offline deterministic simulation; current measured plenums held constant. No future realised controlled HVAC or zone temperatures.",
+  "capacity": [
+    29.68756754930029,
+    23.451651295218767,
+    26.510482655951343,
+    9.598067748324828,
+    8.620423153936342,
+    6.58692443078895,
+    9.020242248905586,
+    11.35223033383758,
+    9.872459774728119,
+    8.343072397514694,
+    10.178659933309676,
+    11.72039198957973,
+    9.824987115918342,
+    9.142462226570416,
+    10.57247590391381
+  ],
+  "group_capacity": [
+    55.74580645019414,
+    56.41237504877706,
+    62.50608378915101
+  ],
+  "power_surrogate": {
+    "coefficients": [
+      1.0640230293619857,
+      0.18385112449425475,
+      0.0,
+      1.5871197334221334,
+      2.7563368712342338
+    ],
+    "training_rmse_kW": 14.176250633495151,
+    "nontraining_rmse_kW": 13.045213649099171,
+    "caveat": "Aggregate NNLS electricity surrogate; fan/reheat/latent effects are imperfect. Actual energy comes from EnergyPlus meters."
+  },
+  "price_status": "BES-H prices are not used: user requested energy/grid objectives, and supplied time labels require repair before tariff use.",
+  "weather_sha256": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c"
+}

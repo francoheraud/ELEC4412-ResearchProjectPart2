@@ -1,0 +1,31 @@
+{
+  "price_weight": 1.0,
+  "grid_import_weight": 10.0,
+  "renewable_hvac_weight": 0.0,
+  "hvac_only_energy_weight": 10.0,
+  "comfort_weight": 10.0,
+  "battery_throughput_weight": 0.01,
+  "setpoint_movement_weight": 0.05,
+  "sat_movement_weight": 0.1,
+  "price_reference_USD_per_kWh": 0.05,
+  "policy_family": "flexible",
+  "precooling_offsets_C": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "preoccupancy_hours": 2.0,
+  "allow_dynamic_sat": true,
+  "max_hvac_energy_increase_fraction": 0.05,
+  "comfort_margin": 0.1,
+  "horizon_hours": 48.0,
+  "control_hours": 0.5,
+  "eta_charge": 0.9,
+  "eta_discharge": 0.9,
+  "soc_min": 0.24,
+  "soc_max": 0.92,
+  "export_price_factor": 1.0,
+  "baseline_comfort_guard": false,
+  "anticipatory_policies": false,
+  "schedule_clock_correction": false
+}

@@ -1,0 +1,7 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.7
+# Optional for displaying the cached demonstration notebooks:
+jupyter
+ipython

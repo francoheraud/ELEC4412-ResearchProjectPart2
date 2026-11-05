@@ -1,0 +1,3 @@
+reference,comparison,HVAC_kWh_saving_pct,facility_kWh_saving_pct,import_kWh_saving_pct,net_energy_cost_USD_saving_pct
+reactive,hvac_mpc,4.814379456736796,1.4263914977473222,2.85278522310301,3.2158337613417918
+reactive,coordinated,4.769781682188393,1.4131781880660161,2.81050927665748,7.508799479585828

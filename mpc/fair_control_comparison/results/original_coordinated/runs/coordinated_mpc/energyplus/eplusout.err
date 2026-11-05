@@ -1,0 +1,34 @@
+Program Version,EnergyPlus, Version 25.2.0-cf7368216c, YMD=2026.10.13 23:24,
+   ************* Beginning Zone Sizing Calculations
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:NATURALGAS" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ** Warning ** Data Exchange API: You seem to already have tried to get an Actuator Handle on this one.
+   **   ~~~   ** Occurred for componentType='ELECTRICAL STORAGE', controlType='POWER CHARGE RATE', uniqueKey='THESIS GRID CONNECTED PV'.
+   **   ~~~   ** The getActuatorHandle function will still return the handle (= 979) but caller should take note that there is a risk of overwriting.
+   ** Warning ** Data Exchange API: You seem to already have tried to get an Actuator Handle on this one.
+   **   ~~~   ** Occurred for componentType='ELECTRICAL STORAGE', controlType='POWER DRAW RATE', uniqueKey='THESIS GRID CONNECTED PV'.
+   **   ~~~   ** The getActuatorHandle function will still return the handle (= 978) but caller should take note that there is a risk of overwriting.
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file
+   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,
+   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
+   ************* Key=*, VarName=BOILER NATURALGAS ENERGY, Frequency=TimeStep
+   ************* Key=*, VarName=BOILER INLET TEMPERATURE, Frequency=TimeStep
+   ************* Key=*, VarName=BOILER OUTLET TEMPERATURE, Frequency=TimeStep
+   ************* Key=*, VarName=BOILER PART LOAD RATIO, Frequency=TimeStep
+   ************* There are 1 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 4 Warning; 0 Severe Errors; Elapsed Time=00hr 09min 48.36sec

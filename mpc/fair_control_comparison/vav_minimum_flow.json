@@ -1,0 +1,86 @@
+{
+  "source": "C:\\Users\\Franc\\OneDrive\\Desktop\\Uni Documents\\2026\\Thesis\\building_semantic\\ornl_frp\\implementation\\mpc\\export_pricing_study\\results\\zero_export\\runs\\conventional\\energyplus\\eplusout.sql",
+  "source_sha256": "b332127e37dacc5ee42278a75952dc94925ef7d6110119910f9c77ddb4d8da47",
+  "provenance": "Native independent design sizing, not fitted to the evaluation temperature response. Plant minimum flows unchanged.",
+  "zones": {
+    "CORE_BOTTOM": {
+      "maximum_m3_s": 3.2429314207157502,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.972879426214725
+    },
+    "CORE_MID": {
+      "maximum_m3_s": 3.1525091671301038,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.945752750139031
+    },
+    "CORE_TOP": {
+      "maximum_m3_s": 3.102043291102225,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.9306129873306674
+    },
+    "PERIMETER_BOT_ZN_1": {
+      "maximum_m3_s": 0.977705020030598,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.2933115060091794
+    },
+    "PERIMETER_BOT_ZN_2": {
+      "maximum_m3_s": 0.9355159377905808,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.28065478133717425
+    },
+    "PERIMETER_BOT_ZN_3": {
+      "maximum_m3_s": 0.6233530984433937,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.18700592953301812
+    },
+    "PERIMETER_BOT_ZN_4": {
+      "maximum_m3_s": 1.02917711199078,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.308753133597234
+    },
+    "PERIMETER_MID_ZN_1": {
+      "maximum_m3_s": 1.16866880716043,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.350600642148129
+    },
+    "PERIMETER_MID_ZN_2": {
+      "maximum_m3_s": 1.0762681167909742,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.32288043503729225
+    },
+    "PERIMETER_MID_ZN_3": {
+      "maximum_m3_s": 0.8032660148503501,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.24097980445510503
+    },
+    "PERIMETER_MID_ZN_4": {
+      "maximum_m3_s": 1.1560651734259897,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.3468195520277969
+    },
+    "PERIMETER_TOP_ZN_1": {
+      "maximum_m3_s": 1.2024454106082465,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.36073362318247393
+    },
+    "PERIMETER_TOP_ZN_2": {
+      "maximum_m3_s": 1.0597139749250546,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.31791419247751634
+    },
+    "PERIMETER_TOP_ZN_3": {
+      "maximum_m3_s": 0.9137635791539375,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.27412907374618123
+    },
+    "PERIMETER_TOP_ZN_4": {
+      "maximum_m3_s": 1.221115322088885,
+      "minimum_fraction": 0.3,
+      "minimum_m3_s": 0.3663345966266655
+    }
+  },
+  "air_density_kg_m3": 1.2,
+  "sensible_cp_kJ_kgK": 1.006,
+  "assumption": "Constant air properties; implicit endpoint sensible cooling from minimum supply airflow. Heating reheat still approximated as before.",
+  "reference": "https://bigladdersoftware.com/epx/docs/25-2/engineering-reference/air-system-distribution-terminals.html"
+}

@@ -1,0 +1,6 @@
+{
+  "time": "2017-08-20 00:00:00",
+  "past_samples": 432,
+  "last_past_measurement": "2017-08-19 23:50:00",
+  "method": "Causal endpoint filtering; live conditioning follows; no future measurements"
+}

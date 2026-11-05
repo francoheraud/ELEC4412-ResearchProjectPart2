@@ -1,0 +1,80 @@
+{
+  "completed": 10,
+  "missing": [],
+  "input_hashes_identical": true,
+  "conditioning_meters_and_temperatures_match": true,
+  "command_bounds_passed": true,
+  "identities": {
+    "original_reactive": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "original_fixed18": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "original_myopic": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "original_hvac_mpc": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "original_coordinated": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "relaxed_reactive": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "relaxed_fixed18": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "relaxed_myopic": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "relaxed_hvac_mpc": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    },
+    "relaxed_coordinated": {
+      "idf": "d2a6cf5b1487fd63c62b3e6d6823c4b489a984273bc5dabb80ead055e48b146f",
+      "weather": "c7d4efcf93ba316a1d874352e743df5cf137ba5c0e3459eb2dc4b5442d5b7f5c",
+      "rc": "2d8a6db544d075ec2af3118ac1d4c500f64f562ac5c94a5796cc0fc9d1c9c86c",
+      "profiles": "e1c11a280a284a7a061479eea882d7e6a4a8ff3fd568cdab09d70f6f6f4e6634",
+      "electrical": "39ae763bfa41f71866068297a824c574a0a59475a4ea2d52bbfb493197ef2080"
+    }
+  },
+  "limitation": "Identical permitted bounds do not imply identical achieved comfort. Ventilation diagnostic is against the IDF 12.5 L/s/person design quantity, not a code-compliance test. Native battery power flags are retained."
+}

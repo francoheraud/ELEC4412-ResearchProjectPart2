@@ -1,0 +1,37 @@
+{
+  "measurement_source": "One IDF-derived representative wall, not a field measurement",
+  "wall": {
+    "i": 0,
+    "j": 4,
+    "zone_i": "CORE_BOTTOM",
+    "zone_j": "PERIMETER_BOT_ZN_2",
+    "surface": "CORE_BOT_ZN_5_WALL_EAST",
+    "area_m2": 66.18628368,
+    "C_material_kWh_K": 0.3042227121172299,
+    "G_layers_kW_K": 0.416921472,
+    "G_with_assumed_films_kW_K": 0.1580567968477612
+  },
+  "reference_area_m2": 66.18628368,
+  "reference_G_kW_K": 0.1580567968477612,
+  "reference_C_kWh_K": 0.3042227121172299,
+  "interzone_tau_hours": 0.48119207491319455,
+  "outdoor_tau_hours": 12.0,
+  "transfer": "Same material construction and nominal area for all 105 candidates; variable effective area scales G and C together. No target-pair geometry enters fitting.",
+  "area_ranges": {
+    "primary": [
+      0.5,
+      2.0
+    ],
+    "wide_sensitivity": [
+      0.25,
+      4.0
+    ]
+  },
+  "uncertainty": "Area ranges are analyst-declared sensitivity assumptions, not measured uncertainty intervals.",
+  "pruning": "Each interzone G belongs to {0} union [Gmin,Gmax]. Sparsity penalty lambda sum G applies only to interzone branches.",
+  "solver": "Multistart cyclic exact-coordinate minimization; nonconvex disjunctive feasible set, no global optimum guarantee. Unpenalized bounded refit of every discovered support.",
+  "selection": "For each area range: fewest states then active conductances within .02 deg C of lowest validation 24h RMSE.",
+  "evaluation": "Same existing train/validation/test blocks, 72h causal conditioning, realized inputs, exact discretization; reused test periods are exploratory.",
+  "data_sha256": "edd43aae99c98d889b2997a533b36b082f00f8853271d5749c59e4652749e938",
+  "script_sha256": "7a00bb29e85fb6880a21c9802d974beb83f92e45ea383c45e1ed21605c47048c"
+}

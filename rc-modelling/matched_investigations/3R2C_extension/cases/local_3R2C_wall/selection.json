@@ -1,0 +1,42 @@
+{
+  "best_accuracy": {
+    "case": "local_3R2C_wall",
+    "key": "savgol_tau0.481192075_L11",
+    "method": "savgol",
+    "tau_interzone_hours": 0.48119207491319455,
+    "lambda_value": 0.1,
+    "candidate_interzone": 30,
+    "candidate_branches": 100,
+    "states": 57,
+    "interzone_edges": 0,
+    "active_conductances": 55,
+    "independent_fitted_parameters": 57,
+    "validation_rmse_C": 0.6328989297528697,
+    "penalized_training_objective": 1.1391376716433212,
+    "refit_optimality": 2.056514680770505e-15,
+    "start_objective_spread": 4.440892098500626e-16,
+    "coordinate_sweeps": 1,
+    "seconds": 0.2058692999999039,
+    "selected_timescale_hyperparameters": 0
+  },
+  "sparse": {
+    "case": "local_3R2C_wall",
+    "key": "savgol_tau0.481192075_L11",
+    "method": "savgol",
+    "tau_interzone_hours": 0.48119207491319455,
+    "lambda_value": 0.1,
+    "candidate_interzone": 30,
+    "candidate_branches": 100,
+    "states": 57,
+    "interzone_edges": 0,
+    "active_conductances": 55,
+    "independent_fitted_parameters": 57,
+    "validation_rmse_C": 0.6328989297528697,
+    "penalized_training_objective": 1.1391376716433212,
+    "refit_optimality": 2.056514680770505e-15,
+    "start_objective_spread": 4.440892098500626e-16,
+    "coordinate_sweeps": 1,
+    "seconds": 0.2058692999999039,
+    "selected_timescale_hyperparameters": 0
+  }
+}

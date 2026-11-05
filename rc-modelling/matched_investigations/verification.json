@@ -1,0 +1,86 @@
+{
+  "all_cases_complete": true,
+  "matched_training_indices": true,
+  "training_indices_sha256": "3c89fb03242aafd84f8d2dba86d7642f4a77cd94d37108fcdbb65473ecdc3885",
+  "physics_checks": {
+    "unrestricted_2R1C_wall": {
+      "best_accuracy": {
+        "max_real_eigenvalue": -0.04601251255003549,
+        "equilibrium_residual": 3.552713678800501e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      },
+      "sparse": {
+        "max_real_eigenvalue": -0.0456162020288893,
+        "equilibrium_residual": 2.842170943040401e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      }
+    },
+    "local_2R1C_wall": {
+      "best_accuracy": {
+        "max_real_eigenvalue": -0.04726504516882682,
+        "equilibrium_residual": 2.842170943040401e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      },
+      "sparse": {
+        "max_real_eigenvalue": -0.04768949932960138,
+        "equilibrium_residual": 4.263256414560601e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      }
+    },
+    "local_1R_wall": {
+      "best_accuracy": {
+        "max_real_eigenvalue": -2.7862810867539736,
+        "equilibrium_residual": 2.842170943040401e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      },
+      "sparse": {
+        "max_real_eigenvalue": -2.7418761909051974,
+        "equilibrium_residual": 5.684341886080802e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      }
+    },
+    "local_2R1C_free_air": {
+      "best_accuracy": {
+        "max_real_eigenvalue": -0.04764787535324271,
+        "equilibrium_residual": 2.8421709430404007e-13,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      },
+      "sparse": {
+        "max_real_eigenvalue": -0.04788148720632139,
+        "equilibrium_residual": 1.1368683772161603e-13,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      }
+    },
+    "local_2R1C_air_only": {
+      "best_accuracy": {
+        "max_real_eigenvalue": -0.047442426136936236,
+        "equilibrium_residual": 7.105427357601002e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      },
+      "sparse": {
+        "max_real_eigenvalue": -0.04768949932960132,
+        "equilibrium_residual": 2.842170943040401e-14,
+        "reciprocity_passed": true,
+        "bounds_passed": true
+      }
+    }
+  },
+  "shared_reference": "local_2R1C_wall reused identically in all three investigations",
+  "plot_zones": [
+    "PERIMETER_BOT_ZN_3",
+    "PERIMETER_MID_ZN_1"
+  ],
+  "plot_episode_indices": [
+    0,
+    6
+  ]
+}

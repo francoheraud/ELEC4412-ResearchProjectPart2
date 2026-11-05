@@ -1,0 +1,5 @@
+HVAC MPC versus conventional: HVAC electricity 4.81% lower, grid imports 2.85% lower, net electricity cost 3.22% lower and occupied violation integral 72.54% lower.
+
+Coordinated MPC versus conventional: HVAC electricity 4.77% lower, grid imports 2.81% lower, net electricity cost 7.51% lower and occupied violation integral 72.72% lower.
+
+Conventional denotes native thermostat/VAV control with a reactive supply-air-temperature reset, not the unmodified EnergyPlus schedule.

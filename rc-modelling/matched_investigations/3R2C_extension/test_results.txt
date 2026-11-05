@@ -1,0 +1,16 @@
+test_fitting_equations_match_network_balance (test_engine.EngineTests.test_fitting_equations_match_network_balance) ... ok
+test_masks_and_nonduplicated_1r_outdoor (test_engine.EngineTests.test_masks_and_nonduplicated_1r_outdoor) ... ok
+test_methods_have_identical_indices_and_free_air_equivalence (test_engine.EngineTests.test_methods_have_identical_indices_and_free_air_equivalence) ... ok
+test_passivity_reciprocity_equilibrium_and_storage_count (test_engine.EngineTests.test_passivity_reciprocity_equilibrium_and_storage_count) ... ok
+test_qr_preserves_full_residual_objective (test_engine.EngineTests.test_qr_preserves_full_residual_objective) ... ok
+test_sparse_objective_against_enumerated_supports (test_engine.EngineTests.test_sparse_objective_against_enumerated_supports) ... ok
+test_storage_initialisation_is_causal (test_engine.EngineTests.test_storage_initialisation_is_causal) ... ok
+test_balance_and_passivity_for_both_differentiation_methods (test_3r2c.ThreeRTests.test_balance_and_passivity_for_both_differentiation_methods) ... ok
+test_foh_reconstruction_against_independent_matrix_exponential (test_3r2c.ThreeRTests.test_foh_reconstruction_against_independent_matrix_exponential) ... ok
+test_frozen_baseline_matrices_reproduced (test_3r2c.ThreeRTests.test_frozen_baseline_matrices_reproduced) ... ok
+test_total_RC_and_steady_conductance_preserved (test_3r2c.ThreeRTests.test_total_RC_and_steady_conductance_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.422s
+
+OK

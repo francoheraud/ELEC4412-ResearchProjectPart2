@@ -1,0 +1,108 @@
+{
+  "graphs_best_accuracy": [
+    {
+      "model": "local_1R_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_1R_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 18
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": false,
+      "interzone": 9,
+      "plenum": 25
+    },
+    {
+      "model": "local_3R2C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_3R2C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ],
+  "graphs_best_accuracy_1R_2R1C": [
+    {
+      "model": "local_1R_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_1R_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 18
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": false,
+      "interzone": 9,
+      "plenum": 25
+    }
+  ],
+  "graphs_best_accuracy_3R2C": [
+    {
+      "model": "local_3R2C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_3R2C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ],
+  "graphs_best_accuracy_1R": [
+    {
+      "model": "local_1R_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_1R_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 18
+    }
+  ],
+  "graphs_best_accuracy_2R1C": [
+    {
+      "model": "local_2R1C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": false,
+      "interzone": 9,
+      "plenum": 25
+    }
+  ]
+}

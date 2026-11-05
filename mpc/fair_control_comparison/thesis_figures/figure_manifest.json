@@ -1,0 +1,388 @@
+{
+  "presentation": "Three main controllers, original common temperature bounds",
+  "font_family": "Times New Roman",
+  "font_file": "C:\\Windows\\Fonts\\times.ttf",
+  "pdf_fonts": "Embedded TrueType (fonttype 42)",
+  "png_dpi": 600,
+  "cases": [
+    "original_reactive",
+    "original_hvac_mpc",
+    "original_coordinated"
+  ],
+  "baseline_definition": "Conventional denotes native thermostat/VAV control with a reactive supply-air-temperature reset, not the unmodified EnergyPlus schedule.",
+  "period": "20-28 August 2017, 216 hours: one conditioning day, seven controller evaluation days and one common recovery day",
+  "selection": {
+    "original": {
+      "zone": "CORE_BOTTOM",
+      "start": "2017-08-22 06:00:00",
+      "end": "2017-08-24 06:00:00",
+      "rule": "Largest pooled occupied violation during control days across the three plotted original-bound controllers; fixed 48-hour window.",
+      "max_MPC_temperature_difference_K": 0.0016041457023128203,
+      "temperature_only_ylim_C": [
+        22.0,
+        27.0
+      ],
+      "response_colors": {
+        "reactive": "#64666B",
+        "hvac_mpc": "#D55E00",
+        "coordinated": "#0072B2"
+      }
+    }
+  },
+  "captions": {
+    "matched_energy_and_cost": "HVAC electricity and net electricity cost for the three controllers under the original common temperature-command bounds. Totals cover 216 hours, including conditioning and recovery. Conventional denotes native thermostat/VAV control with reactive supply-air-temperature reset. Net cost is import expenditure less export credit. Parenthetical percentages are signed changes relative to conventional control, calculated from unrounded totals; negative values indicate reductions and positive values indicate increases.",
+    "grid_exchange_and_cost": "Grid imports, grid exports, import expenditure and export credit over the same 216-hour period with original common temperature-command bounds. The same hourly BES-H energy price is applied to imports and exports. The panels show distinct quantities and use separate scales; export credit is revenue deducted from import cost. Parenthetical percentages are signed changes relative to conventional control, calculated from unrounded totals; negative values indicate reductions and positive values indicate increases.",
+    "matched_comfort": "Occupied temperature deviations from the same original scheduled bounds, aggregated across all 15 zones over 216 hours. The integral sums deviation magnitude multiplied by interval duration; the maximum is the largest individual occupied-zone excursion. Lower cumulative violations do not necessarily imply a lower maximum excursion. Parenthetical percentages are signed changes relative to conventional control, calculated from unrounded totals; negative values indicate reductions and positive values indicate increases.",
+    "original_bounds_control_response": "Applied supply-air-temperature target and HVAC electrical power for the three original-bound controllers. The displayed 48-hour window is fixed from 22 August at 06:00. The supply-air target is the recorded first-floor command; HVAC power covers the whole building and uses ten-minute interval averages. HVAC MPC is orange with circular markers; coordinated MPC is blue dashed with square markers. Marker positions are staggered to reveal nearly overlapping traces; the data values are unchanged.",
+    "original_bounds_zone_temperature": "Enlarged measured zone-temperature comparison for the zone with the largest pooled occupied violation during the seven control days across the three controllers. The fixed 48-hour window starts on 22 August at 06:00, matching the control-response figure. Temperatures refer to interval ends. All controllers use the same temperature axis. The scheduled lower bounds (15.6 and 21 degrees Celsius) are below the displayed range. HVAC MPC is orange with circular markers; coordinated MPC is blue dashed with square markers. Near-coincident traces indicate similar measured temperatures, without any artificial offset.",
+    "grid_import_response": "Grid-import power during the seven evaluation days and common recovery day (shaded). Values are ten-minute interval averages. Conventional control is grey with triangular markers, HVAC MPC is orange with circular markers, and coordinated MPC is blue dashed with square markers. The displayed period matches the separate battery state-of-charge and dispatch figure.",
+    "battery_coordination": "Battery state of charge and DC battery power during the seven evaluation days and common recovery day (shaded). Conventional and HVAC MPC use greedy battery operation; coordinated MPC jointly schedules HVAC and the battery. Dotted lines denote the common 24 and 92 percent SOC limits. Positive battery power denotes discharging and negative power denotes charging. This compares complete control strategies, rather than isolating battery dispatch while holding HVAC commands fixed. Conventional control is grey with triangular markers, HVAC MPC is orange with circular markers, and coordinated MPC is blue dashed with square markers. Markers appear at different sample positions to distinguish overlapping traces; timestamps and values are unchanged.",
+    "battery_coordination_with_price": "Optional price-aligned view of battery SOC and DC dispatch. The bottom panel shows the common hourly BES-H electricity price (USD/kWh), not accumulated expenditure. The original 2025 price sequence is mapped to simulation month, day and hour using the saved standard-time convention. The same energy price values imports and exports. SOC values refer to interval ends; dispatch values are ten-minute averages. Positive power denotes discharge and negative power denotes charge. Dotted lines mark the 24 and 92 percent SOC bounds; the recovery day is shaded. This illustrates dispatch timing, but does not isolate battery-policy benefits from changes in HVAC control.",
+    "saved_predictive_plan": "Saved 48-hour coordinated-MPC plan starting on 22 August at 06:00: RC-predicted temperature, cooling target, supply-air-temperature target and electrical powers. These are predictions and planned inputs, not realised future measurements. Only the first action was applied before measurements were updated and the controller replanned."
+  },
+  "figures": [
+    "matched_energy_and_cost.pdf",
+    "grid_exchange_and_cost.pdf",
+    "matched_comfort.pdf",
+    "original_bounds_control_response.pdf",
+    "original_bounds_zone_temperature.pdf",
+    "grid_import_response.pdf",
+    "battery_coordination.pdf",
+    "battery_coordination_with_price.pdf",
+    "saved_predictive_plan.pdf"
+  ],
+  "percentage_change_definition": "100 * (controller - conventional) / abs(conventional); undefined for zero baseline",
+  "bar_annotations": {
+    "HVAC_kWh": [
+      {
+        "case": "original_reactive",
+        "value": 5287.847673419794,
+        "baseline": 5287.847673419794,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 5033.270621327137,
+        "baseline": 5287.847673419794,
+        "percent_change": -4.814379456736796,
+        "label": "-4.81%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 5035.628883710991,
+        "baseline": 5287.847673419794,
+        "percent_change": -4.769781682188393,
+        "label": "-4.77%"
+      }
+    ],
+    "net_energy_cost_USD": [
+      {
+        "case": "original_reactive",
+        "value": 242.98282780084736,
+        "baseline": 242.98282780084736,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 235.16890399016472,
+        "baseline": 242.98282780084736,
+        "percent_change": -3.2158337613417918,
+        "label": "-3.22%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 224.7377344914544,
+        "baseline": 242.98282780084736,
+        "percent_change": -7.508799479585828,
+        "label": "-7.51%"
+      }
+    ],
+    "import_kWh": [
+      {
+        "case": "original_reactive",
+        "value": 9019.866377433102,
+        "baseline": 9019.866377433102,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 8762.548962274053,
+        "baseline": 9019.866377433102,
+        "percent_change": -2.85278522310301,
+        "label": "-2.85%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 8766.362196153235,
+        "baseline": 9019.866377433102,
+        "percent_change": -2.81050927665748,
+        "label": "-2.81%"
+      }
+    ],
+    "export_kWh": [
+      {
+        "case": "original_reactive",
+        "value": 984.8905589922942,
+        "baseline": 984.8905589922942,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 981.723892031844,
+        "baseline": 984.8905589922942,
+        "percent_change": -0.321524755368786,
+        "label": "-0.32%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 983.0446649184204,
+        "baseline": 984.8905589922942,
+        "percent_change": -0.18742123751927517,
+        "label": "-0.19%"
+      }
+    ],
+    "import_energy_cost_USD": [
+      {
+        "case": "original_reactive",
+        "value": 269.5955377943535,
+        "baseline": 269.5955377943535,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 261.7105152992207,
+        "baseline": 269.5955377943535,
+        "percent_change": -2.9247600162980056,
+        "label": "-2.92%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 251.31160145540807,
+        "baseline": 269.5955377943535,
+        "percent_change": -6.78198774673057,
+        "label": "-6.78%"
+      }
+    ],
+    "export_credit_USD": [
+      {
+        "case": "original_reactive",
+        "value": 26.612709993506154,
+        "baseline": 26.612709993506154,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 26.54161130905594,
+        "baseline": 26.612709993506154,
+        "percent_change": -0.26716063289894965,
+        "label": "-0.27%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 26.57386696395374,
+        "baseline": 26.612709993506154,
+        "percent_change": -0.14595668596656264,
+        "label": "-0.15%"
+      }
+    ],
+    "common_occupied_degree_h": [
+      {
+        "case": "original_reactive",
+        "value": 8.922407672192925,
+        "baseline": 8.922407672192925,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 2.449982659478916,
+        "baseline": 8.922407672192925,
+        "percent_change": -72.54123831267658,
+        "label": "-72.54%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 2.433984344874148,
+        "baseline": 8.922407672192925,
+        "percent_change": -72.72054321772623,
+        "label": "-72.72%"
+      }
+    ],
+    "common_occupied_max_K": [
+      {
+        "case": "original_reactive",
+        "value": 0.6262219230266446,
+        "baseline": 0.6262219230266446,
+        "percent_change": 0.0,
+        "label": "Baseline"
+      },
+      {
+        "case": "original_hvac_mpc",
+        "value": 0.7690186531769676,
+        "baseline": 0.6262219230266446,
+        "percent_change": 22.80289541128813,
+        "label": "+22.80%"
+      },
+      {
+        "case": "original_coordinated",
+        "value": 0.7653699305651749,
+        "baseline": 0.6262219230266446,
+        "percent_change": 22.220238931591958,
+        "label": "+22.22%"
+      }
+    ]
+  },
+  "source_comparison_sha256": "8ebb6a1541c2249d6a45752f92976d78897ed10c426c61927adb712ccb7bcc40",
+  "exported_totals": [
+    {
+      "label": "original_reactive",
+      "scenario": "hvac_mpc_greedy",
+      "period": "whole_experiment",
+      "capacity_kWh": 413.2530048,
+      "policy_family": "flexible",
+      "price_weight": 1.0,
+      "HVAC_kWh": 5287.847673419794,
+      "facility_kWh": 17847.62826426197,
+      "import_kWh": 9019.866377433102,
+      "export_kWh": 984.8905589922942,
+      "import_energy_cost_USD": 269.5955377943535,
+      "comfort_degree_hours": 17.36473526099661,
+      "occupied_comfort_degree_hours": 8.922407672192925,
+      "peak_import_kW": 153.39913303232922,
+      "initial_soc": 0.24,
+      "final_soc": 0.24,
+      "nominal_inventory_change_kWh": 0.0,
+      "charge_DC_kWh": 975.3292469406208,
+      "discharge_DC_kWh": 961.2888198714788,
+      "export_credit_USD": 26.612709993506154,
+      "net_energy_cost_USD": 242.98282780084736,
+      "optimisation_export_price_factor": 1.0,
+      "raw_initial_soc": 0.2416389242110873,
+      "initial_soc_basis": "end_of_first_zero_flow_interval",
+      "band": "original",
+      "controller": "reactive",
+      "occupied_zone_hours": 1785.0,
+      "common_occupied_degree_h": 8.922407672192925,
+      "common_occupied_mean_K": 0.0049985477155142,
+      "common_occupied_p95_K": 0.0007980475183337,
+      "common_occupied_max_K": 0.6262219230266446,
+      "original_occupied_degree_h": 8.922407672192925,
+      "original_occupied_mean_K": 0.0049985477155142,
+      "peak_occupied_T_C": 26.855975824670097,
+      "common_exceedance_zone_h": 36.333333333333336,
+      "solve_median_s": 4.61999952676706e-05,
+      "soc_passed": true,
+      "nominal_power_passed": false,
+      "cooling_kWh": 4138.644214318996,
+      "fan_kWh": 1147.418013696084,
+      "heating_electric_kWh": 1.7854454047135977,
+      "gas_kWh": 202.64800355739817,
+      "HVAC_kWh_saving_vs_reactive_pct": 0.0,
+      "facility_kWh_saving_vs_reactive_pct": 0.0,
+      "import_kWh_saving_vs_reactive_pct": 0.0,
+      "net_energy_cost_USD_saving_vs_reactive_pct": 0.0
+    },
+    {
+      "label": "original_hvac_mpc",
+      "scenario": "hvac_mpc_greedy",
+      "period": "whole_experiment",
+      "capacity_kWh": 413.2530048,
+      "policy_family": "flexible",
+      "price_weight": 1.0,
+      "HVAC_kWh": 5033.270621327137,
+      "facility_kWh": 17593.05121215099,
+      "import_kWh": 8762.548962274053,
+      "export_kWh": 981.723892031844,
+      "import_energy_cost_USD": 261.7105152992207,
+      "comfort_degree_hours": 11.74633515392187,
+      "occupied_comfort_degree_hours": 2.449982659478916,
+      "peak_import_kW": 153.6047731639594,
+      "initial_soc": 0.24,
+      "final_soc": 0.24,
+      "nominal_inventory_change_kWh": 0.0,
+      "charge_DC_kWh": 1001.9780714235468,
+      "discharge_DC_kWh": 987.4935777790054,
+      "export_credit_USD": 26.54161130905594,
+      "net_energy_cost_USD": 235.16890399016472,
+      "optimisation_export_price_factor": 1.0,
+      "raw_initial_soc": 0.2416389242110873,
+      "initial_soc_basis": "end_of_first_zero_flow_interval",
+      "band": "original",
+      "controller": "hvac_mpc",
+      "occupied_zone_hours": 1785.0,
+      "common_occupied_degree_h": 2.449982659478916,
+      "common_occupied_mean_K": 0.0013725393050302,
+      "common_occupied_p95_K": 5.826413848648556e-05,
+      "common_occupied_max_K": 0.7690186531769676,
+      "original_occupied_degree_h": 2.449982659478916,
+      "original_occupied_mean_K": 0.0013725393050302,
+      "peak_occupied_T_C": 26.894506129400128,
+      "common_exceedance_zone_h": 8.666666666666666,
+      "solve_median_s": 1.900483499994152,
+      "soc_passed": true,
+      "nominal_power_passed": false,
+      "cooling_kWh": 4176.698859212965,
+      "fan_kWh": 856.0785442469461,
+      "heating_electric_kWh": 0.4932178672261161,
+      "gas_kWh": 202.6474891365264,
+      "HVAC_kWh_saving_vs_reactive_pct": 4.814379456736795,
+      "facility_kWh_saving_vs_reactive_pct": 1.4263914977473258,
+      "import_kWh_saving_vs_reactive_pct": 2.852785223103005,
+      "net_energy_cost_USD_saving_vs_reactive_pct": 3.215833761341791
+    },
+    {
+      "label": "original_coordinated",
+      "scenario": "coordinated_mpc",
+      "period": "whole_experiment",
+      "capacity_kWh": 413.2530048,
+      "policy_family": "flexible",
+      "price_weight": 1.0,
+      "HVAC_kWh": 5035.628883710991,
+      "facility_kWh": 17595.409474544314,
+      "import_kWh": 8766.362196153235,
+      "export_kWh": 983.0446649184204,
+      "import_energy_cost_USD": 251.31160145540807,
+      "comfort_degree_hours": 11.658079693328707,
+      "occupied_comfort_degree_hours": 2.433984344874148,
+      "peak_import_kW": 153.60472970987598,
+      "initial_soc": 0.24,
+      "final_soc": 0.24,
+      "nominal_inventory_change_kWh": 0.0,
+      "charge_DC_kWh": 995.9832807476432,
+      "discharge_DC_kWh": 981.3589968955164,
+      "export_credit_USD": 26.57386696395374,
+      "net_energy_cost_USD": 224.7377344914544,
+      "optimisation_export_price_factor": 1.0,
+      "raw_initial_soc": 0.2416389242110873,
+      "initial_soc_basis": "end_of_first_zero_flow_interval",
+      "band": "original",
+      "controller": "coordinated",
+      "occupied_zone_hours": 1785.0,
+      "common_occupied_degree_h": 2.433984344874148,
+      "common_occupied_mean_K": 0.001363576663795,
+      "common_occupied_p95_K": 5.827938441012022e-05,
+      "common_occupied_max_K": 0.7653699305651749,
+      "original_occupied_degree_h": 2.433984344874148,
+      "original_occupied_mean_K": 0.001363576663795,
+      "peak_occupied_T_C": 26.88855362063823,
+      "common_exceedance_zone_h": 8.5,
+      "solve_median_s": 2.098459549990366,
+      "soc_passed": true,
+      "nominal_power_passed": true,
+      "cooling_kWh": 4178.952399967235,
+      "fan_kWh": 856.1832600086741,
+      "heating_electric_kWh": 0.4932237350837037,
+      "gas_kWh": 202.6472573191127,
+      "HVAC_kWh_saving_vs_reactive_pct": 4.769781682188389,
+      "facility_kWh_saving_vs_reactive_pct": 1.413178188066011,
+      "import_kWh_saving_vs_reactive_pct": 2.81050927665748,
+      "net_energy_cost_USD_saving_vs_reactive_pct": 7.508799479585826
+    }
+  ]
+}

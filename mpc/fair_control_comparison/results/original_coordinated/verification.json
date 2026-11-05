@@ -1,0 +1,18 @@
+{
+  "coordinated_mpc": {
+    "soc_min": 0.24,
+    "soc_max": 0.92,
+    "max_charge_kW": 50.000038034762085,
+    "max_discharge_kW": 49.99998223518581,
+    "simultaneous_steps": 0,
+    "DC_AC_balance_max_kWh": 1.4210854715202004e-14,
+    "severe_errors": 0,
+    "sql_demand_rows": 1296,
+    "charge_beyond_surplus_kWh": 6.394994168184992e-05,
+    "common_SOC_limits_passed": true,
+    "nominal_power_limit_passed": true,
+    "max_nominal_power_exceedance_kW": 3.803476208474876e-05,
+    "facility_meter_max_error_kWh": 1.487707068648092e-08,
+    "electrical_balance_and_SOC_passed": true
+  }
+}

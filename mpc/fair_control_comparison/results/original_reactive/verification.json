@@ -1,0 +1,19 @@
+{
+  "hvac_mpc_greedy": {
+    "soc_min": 0.2399999999999999,
+    "soc_max": 0.92,
+    "max_charge_kW": 50.00003813464567,
+    "max_discharge_kW": 50.14545169282482,
+    "simultaneous_steps": 0,
+    "DC_AC_balance_max_kWh": 1.0658141036401503e-14,
+    "severe_errors": 0,
+    "sql_demand_rows": 1296,
+    "charge_beyond_surplus_kWh": 5.002636074855746e-05,
+    "common_SOC_limits_passed": true,
+    "nominal_power_limit_passed": false,
+    "max_nominal_power_exceedance_kW": 0.14545169282482107,
+    "limitation": "Native NMC achieved power exceeds the nominal load-centre request. Report the measured maximum; this check did not pass.",
+    "facility_meter_max_error_kWh": 1.487707068648092e-08,
+    "electrical_balance_and_SOC_passed": true
+  }
+}

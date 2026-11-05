@@ -1,0 +1,7 @@
+* -text
+*.npz binary
+*.png binary
+*.pdf binary
+
+# Preserve the original scientific source bytes: historical run contracts use
+# SHA256 hashes, so automatic CRLF conversion would invalidate those contracts.

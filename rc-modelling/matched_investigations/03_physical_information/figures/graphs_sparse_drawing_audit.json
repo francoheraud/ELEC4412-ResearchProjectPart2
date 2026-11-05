@@ -1,0 +1,108 @@
+{
+  "graphs_sparse": [
+    {
+      "model": "local_2R1C_free_air",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_free_air",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_air_only",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_air_only",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ],
+  "graphs_sparse_free_air_air_only": [
+    {
+      "model": "local_2R1C_free_air",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_free_air",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_air_only",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_air_only",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ],
+  "graphs_sparse_2R1C": [
+    {
+      "model": "local_2R1C_wall",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_wall",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ],
+  "graphs_sparse_free_air": [
+    {
+      "model": "local_2R1C_free_air",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_free_air",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ],
+  "graphs_sparse_air_only": [
+    {
+      "model": "local_2R1C_air_only",
+      "candidate": true,
+      "interzone": 30,
+      "plenum": 25
+    },
+    {
+      "model": "local_2R1C_air_only",
+      "candidate": false,
+      "interzone": 0,
+      "plenum": 25
+    }
+  ]
+}
